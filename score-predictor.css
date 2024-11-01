@@ -1,0 +1,114 @@
+div.sfc_scorepredictor table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div.sfc_scorepredictor table th,
+div.sfc_scorepredictor table td {
+    text-align: center !important;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+div.sfc_scorepredictor table th span.sfc_competition,
+div.sfc_scorepredictor table td span.sfc_competition {
+    font-size: small;
+    font-weight: bold;
+}
+
+div.sfc_scorepredictor table th span.sfc_date,
+div.sfc_scorepredictor table td span.sfc_date {
+    font-weight: bold;
+}
+
+div.sfc_scorepredictor table th.sfc_team,
+div.sfc_scorepredictor table td.sfc_team {
+    width: 30%;
+}
+
+div.sfc_scorepredictor table th.sfc_team label,
+div.sfc_scorepredictor table td.sfc_team label {
+    display: inline-block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80px 80px;
+    padding-top: 80px !important;
+}
+
+div.sfc_scorepredictor table th.sfc_scores,
+div.sfc_scorepredictor table td.sfc_scores {
+    width: 40%;
+    font-size: 1.5em;
+}
+
+div.sfc_scorepredictor table th.sfc_scores small,
+div.sfc_scorepredictor table td.sfc_scores small {
+    font-size: 0.6em;
+}
+
+div.sfc_scorepredictor table th.sfc_scores input[type="text"],
+div.sfc_scorepredictor table td.sfc_scores input[type="text"] {
+    width: 3em;
+    text-align: center;
+}
+
+div.sfc_scorepredictor table th.sfc_scores input[type="submit"],
+div.sfc_scorepredictor table td.sfc_scores input[type="submit"] {
+    margin-top: 0.5em;
+}
+
+div.sfc_scorepredictor table th.sfc_score,
+div.sfc_scorepredictor table td.sfc_score {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: left !important;
+    text-shadow: 0 0 2px white;
+}
+
+div.sfc_scorepredictor table th.sfc_score div,
+div.sfc_scorepredictor table td.sfc_score div {
+    position: relative;
+    padding: 0 10px;
+}
+
+div.sfc_scorepredictor table th.sfc_score div span.sfc_percent,
+div.sfc_scorepredictor table td.sfc_score div span.sfc_percent {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 1.5em;
+    background-color: #99CCEE;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+div.sfc_scorepredictor table th.sfc_score div strong,
+div.sfc_scorepredictor table th.sfc_score div em,
+div.sfc_scorepredictor table td.sfc_score div strong,
+div.sfc_scorepredictor table td.sfc_score div em {
+    position: relative;
+    z-index: 2;
+}
+
+div.sfc_scorepredictor table th.sfc_score div em,
+div.sfc_scorepredictor table td.sfc_score div em {
+    font-style: normal;
+    float: right;
+}
+
+div.sfc_scorepredictor div.sfc_footer {
+    display: block !important;
+    opacity: 1 !important;
+    text-align: center;
+    visibility: visible !important;
+}
+
+@media screen and (max-width: 767px) {
+    div.sfc_scorepredictor {
+        width: 100%;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
